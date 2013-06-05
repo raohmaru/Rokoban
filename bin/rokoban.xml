@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<rokoban version="1.0">
+
+<options>
+	<rows>10</rows>
+	<cols>10</cols>
+	<tile_width>40</tile_width>
+	<tile_height>40</tile_height>
+</options>
+
+<tilesets>
+	<swf>tilesets/default.swf</swf>
+	<swf>tilesets/prison.swf</swf>
+	<swf>tilesets/icy.swf</swf>
+	<swf>tilesets/egyptian.swf</swf>
+	<swf>tilesets/sea.swf</swf>
+</tilesets>
+
+<!--
+  => suelo
+# => pared
+$ => caja
+. => destino de la caja
+@ => posición jugador
+-->
+<map tileset="0" record="4"><![CDATA[
+##########
+##########
+##########
+###    ###
+### @$ ###
+###    ###
+###  . ###
+##########
+##########
+##########
+]]></map>
+<map tileset="1" record="24"><![CDATA[
+##########
+##########
+##      ##
+## $ $  ##
+##   #  ##
+##  #@  ##
+##.    .##
+##      ##
+##########
+##########
+]]></map>
+<map tileset="2" record="22"><![CDATA[
+##########
+##########
+###    ###
+##   $  ##
+##  ##  ##
+##  ##  ##
+##  @  .##
+###    ###
+##########
+##########
+]]></map>
+<map tileset="3" record="20"><![CDATA[
+##########
+##########
+##      ##
+## #### ##
+##  $ # ##
+## # @  ##
+## #### ##
+##.     ##
+##########
+##########
+]]></map>
+<map tileset="0" record="37"><![CDATA[
+##########
+##########
+##  $   ##
+##  $@  ##
+##  $   ##
+######  ##
+##      ##
+##.    .##
+##########
+##########
+]]></map>
+<map tileset="1" record="42"><![CDATA[
+##########
+##########
+##.     ##
+## ## # ##
+## $ $#@##
+## #    ##
+## # ## ##
+##.     ##
+##########
+##########
+]]></map>
+<map tileset="2" record="116"><![CDATA[
+##########
+#      ###
+# ########
+#...    ##
+####  # ##
+##    #  #
+##### # ##
+##@  $$$ #
+##       #
+##########
+]]></map>
+<map tileset="3" record="56"><![CDATA[
+##########
+# #    # #
+# #    # #
+# #$$$$# #
+# #    # #
+# #    # #
+# #  @ # #
+# #    # #
+# #....# #
+##########
+]]></map>
+<map tileset="4" record="50"><![CDATA[
+##########
+#       .#
+# # ## # #
+#  .  $  #
+#@# ##$# #
+# # ## # #
+#  $  .  #
+# #$## # #
+#.       #
+##########
+]]></map>
+
+</rokoban>
